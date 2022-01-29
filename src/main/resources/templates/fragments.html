@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+
+
+<head th:fragment="head">
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="../bootstrap.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--  <link th:href="@{/styles.css}" rel="stylesheet">-->
+    <title th:text="${title}">Rand Ass Title</title>
+</head>
+
+<nav th:fragment="navigation" class="navbar bg-light expand-xl" style="width: 33%;  margin: 0">
+    <a href="/info/education" class="bg-light "><h6>Education</h6></a>
+    <a href="#" class="bg-light "><h6>Experience</h6></a>
+    <a href="#" class="bg-light "><h6>Skills</h6></a>
+    <a href="#" class="bg-light "><h6>Experience</h6></a>
+
+</nav>
+
+

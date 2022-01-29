@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head">
+    <title th:text="${title}"></title>
+</head>
+<body class="container bg-secondary text-light">
+
+
+<nav th:replace="fragments :: navigation"></nav>
+<a href="/info/main"><p>back to info</p></a>
+
+<h1>Education</h1>
+<div class="row">
+    <div class="col-lg-6">
+        <h3>Southern Illinois University- Edwardsville</h3>
+        <div class="container">
+            <table>
+                <tr> <th>Degree</th> </tr>
+                <tr><td>B.A. Foreign Language and Literature- Spanish</td>  </tr>
+                <tr><td>Minor: Peace and International Studies</td>  </tr>
+
+                <tr><th>Certification</th></tr>
+                <tr><td>Secondary Education</td></tr>
+
+                <tr><td><img src="../images/bachdeg.jpg" alt="Bachelors Degree" height="400"></td></tr>
+
+            </table>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+        <h3>LaunchCode</h3>
+        <div class="container">
+            <table>
+                <tr> <th>Program</th> </tr>
+                <tr><td>LaunchCode is a web development bootcamp that focuses on the use of JavaScript for front end development and Java/Spring Boot for back end development
+
+                <tr><th>Certificate</th></tr>
+                <tr><td>Certificate of Completion</td></tr>
+
+                <tr><td><img src="../images/lc101cert.jpg" alt="LC101CERT" height="400"></td></tr>
+
+            </table>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
