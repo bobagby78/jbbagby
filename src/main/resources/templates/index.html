@@ -5,48 +5,68 @@
 </head>
 <body class="container bg-secondary text-light">
 
-    <nav class="navbar bg-light expand-xl" style="width: 33%;  margin: 0">
-        <a href="/info/education" class="bg-light "><h6>Education</h6></a>
-        <a href="/info/education" class="bg-light "><h6>Experience</h6></a>
-        <a href="#" class="bg-light "><h6>Skills</h6></a>
-        <a href="#" class="bg-light "><h6>Work Samples</h6></a>
-    </nav>
-<div class="row">
-    <div class="col-lg-4 fat-top-pad">
-        <h1>Jon B Bagby</h1>
-        <h2>Full Stack Web Developer</h2></div>
-    <div class="col-lg-4 fat-top-pad"><h3>Contact Information</h3>
-        <div class="container">
-            <table>
-                <tr>
-                    <td>Phone: </td>
-                    <td>618.792.1750</td>
-                </tr>
-                <tr>
-                    <td>Email: </td>
-                    <td>bobagby78@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Github: </td>
-                    <td><a href="https://github.com/bobagby78">bobagby78</a></td>
-                </tr>
-                <tr>
-                    <td>Linkedin: </td>
-                    <td><a href="https://www.linkedin.com/in/jon-bagby-6766529b/" >jon-bagby</a>
-                    </td>
-                </tr>
+<nav th:replace="fragments :: nav">
 
-            </table>
+</nav>
+
+<div class="row">
+    <div class="col-lg-4 skinny-top-pad">
+        <div class="row">
+            <div class="col">
+                <h1>Jon B Bagby</h1>
+                <h3>Full Stack Web Developer</h3>
+            </div>
+            <div class="col">
+                <h2>Contact Information</h2>
+                    <div class="container">
+                        <table>
+                            <tr>
+                                <td>Phone: </td>
+                                <td>618.792.1750</td>
+                            </tr>
+                            <tr>
+                                <td>Email: </td>
+                                <td>bobagby78@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Github: </td>
+                                <td><a href="https://github.com/bobagby78">bobagby78</a></td>
+                            </tr>
+                            <tr>
+                                <td>Linkedin: </td>
+                                <td><a href="https://www.linkedin.com/in/jon-bagby-6766529b/" >jon-bagby</a>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+            </div>
+            <div class="col">
+                <h4>Thirteen years as a high school Spanish teacher has helped me become a leader who thrives on bringing people together to collaborate. Transitioning to full time employment as a Full Stack web developer.</h4>
+            </div>
         </div>
+
     </div>
-    <div class="col-lg-4 skinny-top-pad"><img src="../images/jbbagby1.jpg" alt="Graduation Selfie" height="300"></div>
+
+    <div class="col-lg-4 skinny-top-pad">
+        <img src="../images/jbbagby1.jpg" alt="Graduation Selfie" height="450" class="image-border">
+    </div>
+
+    <style>
+        .image-border{
+            border: 10px solid #555;
+            border-radius: 16px;
+
+        }
+    </style>
+
+
 </div>
 
 
 
 
     <br>
-    <h4>Thirteen years as a high school Spanish teacher has helped me become a leader who thrives on bringing people together to collaborate. Transitioning to full time employment as a Full Stack web developer.</h4>
 
     <a href="/info/main">info</a>
 
