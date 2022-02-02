@@ -5,7 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class LandingPageController {
+public class HomeController {
 
     @GetMapping
     private String renderIndex(Model model){

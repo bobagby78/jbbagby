@@ -9,21 +9,27 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("info")
 public class InfoController {
 
-    @GetMapping("main")
+    @GetMapping
     private String renderInfoIndex(Model model){
         model.addAttribute("title", "Information");
-        return"info/main";
+        return"info/index";
     }
 
     @GetMapping("experience")
-    private String renderInfoPage(Model model){
+    private String renderInfoExperience(Model model){
         model.addAttribute("title", "Experience");
         return "info/experience";
     }
 
     @GetMapping("education")
-    private String renderStatsPage(Model model){
+    private String renderInfoEducation(Model model){
         model.addAttribute("title", "Education");
         return "info/education";
+    }
+
+    @GetMapping("hobbies")
+    private String renderInfoHobbies(Model model){
+        model.addAttribute("title", "Hobbies");
+        return("/info/hobbies");
     }
 }
