@@ -1,1 +1,33 @@
-Experience to come
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head">
+    <title th:text="${title}"></title>
+</head>
+<body class="container bg-secondary text-light">
+
+
+<nav th:replace="fragments :: navigation"></nav>
+</body>
+
+<style>
+
+.fat-top-pad{
+    padding-top:100px;
+}
+
+.skinny-top-pad{
+    padding-top: 30px;
+}
+
+.light-link{
+    color: lightsteelblue;
+}
+
+.image-border{
+    border: 10px solid #555;
+    border-radius: 16px;
+
+}
+</style>
+
+</html>

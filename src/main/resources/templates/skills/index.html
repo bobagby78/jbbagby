@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head th:replace="fragments :: head">
-    <title>Information</title>
+    <meta charset="UTF-8"/>
+    <title></title>
 </head>
-<body class="container bg-secondary text-light">
-
 <nav th:replace="fragments :: navigation"></nav>
-<h1>This will be page that redirects to education and experience</h1>
-<a href="/info/education"><p>education</p></a>
-<a href="/info/experience"><p>experience</p></a>
-<a href="/">Back</a>
+<body class="container bg-secondary text-light">
+    <p><a href="/skills/programming">Programming languages</a></p>
+    <p><a href="/skills/frameworks">Frameworks</a></p>
+    <p><a href="/skills/databases">Databases</a></p>
+    <p><a href="/skills/other">Other</a></p>
+
 </body>
 
 <style>
