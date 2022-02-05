@@ -10832,6 +10832,39 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+
+  .center-div{
+      display: flex;
+      justify-content: center;
+  }
+
+  .center-text{
+      text-align: center;
+   }
+
+  .thumbnail{
+
+      height: 100px;
+  }
+
+  .fat-top-pad{
+      padding-top:100px;
+  }
+
+  .skinny-top-pad{
+      padding-top: 30px;
+  }
+
+  .light-link{
+      color: lightsteelblue;
+  }
+
+  .image-border{
+      border: 10px solid #555;
+      border-radius: 16px;
+
+  }
+
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

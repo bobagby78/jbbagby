@@ -4,30 +4,41 @@
     <title th:text="${title}"></title>
 </head>
 <body class="container bg-secondary text-light">
-
-
 <nav th:replace="fragments :: navigation"></nav>
 
+<h1>Programming Languages</h1>
+<div class="row center-text center-div">
+    <div class="col-lg-4">
+        <h2>Confident with:</h2>
+        <div>
+            <img src="/images/javaTrans.png" alt="Java" class="thumbnail">
+        </div>
+        <h6>Java</h6>
+        <div>
+            <img src="/images/javascriptTrans.png" alt="JavaScript" class="thumbnail">
+        </div>
+        <h6>Javascript</h6>
+    </div>
+    <div class="col-lg-4">
+        <div>
+            <h2>Limited Experience:</h2>
+        </div>
+
+        <div>
+            <img src="/images/python.png" alt="Python" class="thumbnail">
+        </div>
+        <h6 class="center-text">Python</h6>
+
+
+    </div>
+    <div class="col-lg-4">
+        <h2 class="center=text">Exposed to:</h2>
+        <div>
+            <img src="/images/typescript.png" alt="Typescript" class="thumbnail">
+        </div>
+        <h6>Typescript</h6>
+    </div>
+</div>
 
 </body>
-<style>
-
-.fat-top-pad{
-    padding-top:100px;
-}
-
-.skinny-top-pad{
-    padding-top: 30px;
-}
-
-.light-link{
-    color: lightsteelblue;
-}
-
-.image-border{
-    border: 10px solid #555;
-    border-radius: 16px;
-
-}
-</style>
 </html>

@@ -6,31 +6,15 @@
 <body class="container bg-secondary text-light">
 
 <nav th:replace="fragments :: navigation"></nav>
+
 <h1>Education and Experience</h1>
-<p><a href="/info/education"><img src="/images/education.png" alt="Education" height="50"></a></p>
-<p><a href="/info/experience"><img src="/images/work.png" alt="Work" height="50"></a></p>
-<p><a href="/info/other"><img src="/images/other.png" alt="Other" height="50"></a></p>
+<p><br></p>
+
+    <div class="container">
+        <p><a href="/info/education"><img src="/images/education.png" alt="Education" height="80"></a></p>
+        <p><a href="/info/experience"><img src="/images/work.png" alt="Work" height="80"></a></p>
+        <p><a href="/info/other"><img src="/images/misc.png" alt="Other" height="80"></a></p>
+    </div>
+
 </body>
-
-<style>
-
-.fat-top-pad{
-    padding-top:100px;
-}
-
-.skinny-top-pad{
-    padding-top: 30px;
-}
-
-.light-link{
-    color: lightsteelblue;
-}
-
-.image-border{
-    border: 10px solid #555;
-    border-radius: 16px;
-
-}
-</style>
-
 </html>

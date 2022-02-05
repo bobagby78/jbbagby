@@ -1,0 +1,35 @@
+.center-div{
+    display: flex;
+    justify-content: center;
+}
+
+.center-text{
+    text-align: center;
+ }
+
+.thumbnail{
+
+    height: 100px;
+}
+
+.fat-top-pad{
+    padding-top:100px;
+}
+
+.skinny-top-pad{
+    padding-top: 30px;
+}
+
+.light-link{
+    color: lightsteelblue;
+}
+
+.secret-link{
+    color: white;
+}
+
+.image-border{
+    border: 10px solid #555;
+    border-radius: 16px;
+
+}
