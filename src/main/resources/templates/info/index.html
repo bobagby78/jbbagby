@@ -5,16 +5,20 @@
 </head>
 <body class="container bg-secondary text-light">
 
-<nav th:replace="fragments :: navigation"></nav>
-
-<h1>Education and Experience</h1>
-<p><br></p>
-
-    <div class="container">
-        <p><a href="/info/education"><img src="/images/education.png" alt="Education" height="80"></a></p>
-        <p><a href="/info/experience"><img src="/images/work.png" alt="Work" height="80"></a></p>
-        <p><a href="/info/other"><img src="/images/misc.png" alt="Other" height="80"></a></p>
+    <nav th:replace="fragments :: navigation"></nav>
+    <div style="display: flex; justify-content: center">
+        <h1 class="center-text skinny-top-pad">Education and Experience</h1>
     </div>
 
+
+<!--    <div class="container skinny-top-pad" style="display: flex; justify-content: center">-->
+        <div class="medium-top-pad" style="display: flex; justify-content: center"><a href="/info/education"><img id="education-icon" src="/images/education.png" alt="Education" height="80"></a></div>
+        <div class="medium-top-pad" style="display: flex; justify-content: center"><p><a href="/info/experience"><img id="work-icon" src="/images/work.png" alt="Work" height="80"></a></p></div>
+        <div class="medium-top-pad" style="display: flex; justify-content: center"><p><a href="/info/other"><img id="misc-icon" src="/images/misc.png" alt="Other" height="80"></a></p></div>
+
+
+<!--    </div>-->
+
 </body>
+<script src="script.js"></script>
 </html>

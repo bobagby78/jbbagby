@@ -31,6 +31,12 @@ public class SkillsController {
         model.addAttribute("title", "Framework Skills");
         return "/skills/frameworks";
     }
+    
+    @GetMapping("other")
+    private String renderSkillsOther (Model model){
+        model.addAttribute("title", "Other");
+        return "/skills/other";
+    }
 
 
 }

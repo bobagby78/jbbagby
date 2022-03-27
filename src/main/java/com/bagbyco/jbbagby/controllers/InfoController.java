@@ -27,9 +27,9 @@ public class InfoController {
         return "info/education";
     }
 
-    @GetMapping("hobbies")
+    @GetMapping("other")
     private String renderInfoHobbies(Model model){
         model.addAttribute("title", "Hobbies");
-        return("/info/hobbies");
+        return("/info/other");
     }
 }

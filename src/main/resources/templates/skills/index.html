@@ -2,43 +2,22 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head th:replace="fragments :: head">
     <meta charset="UTF-8"/>
-    <title></title>
+    <title>Skills</title>
 </head>
 <body class="container bg-secondary text-light">
 
 <nav th:replace="fragments :: navigation"></nav>
+<div style="display: flex; justify-content: center">
+    <h1 class="center-text skinny-top-pad">Tech Skills</h1>
+</div>
 
-<h1>Tech Skills</h1>
-<p><br></p>
-
-    <div class="container">
-        <p><a href="/skills/programming"><img src="/images/progLang.png" alt="Programming Languages" height="80"></a></p>
-        <p><a href="/skills/frameworks"><img src="/images/frameworks.png" alt="Frameworks" height="80"></a></p>
-        <p><a href="/skills/databases"><img src="/images/databases.png" alt="Databases" height="80"></a></p>
-        <p><a href="/skills/other"><img src="/images/misc.png" alt="Other" height="80"></a></p>
-    </div>
+<!--    <div class="container">-->
+        <div  class="medium-top-pad" style="display: flex; justify-content: center"><a href="/skills/programming"><img id="prog-langs" src="/images/progLang.png" alt="Programming Languages" height="80"></a></div>
+        <div class="medium-top-pad" style="display: flex; justify-content: center"><a href="/skills/frameworks"><img id="frameworks" src="/images/frameworks.png" alt="Frameworks" height="80"></a></div>
+        <div class="medium-top-pad" style="display: flex; justify-content: center"><a href="/skills/databases"><img id="databases" src="/images/databases.png" alt="Databases" height="80"></a></div>
+        <div class="medium-top-pad" style="display: flex; justify-content: center"><a href="/skills/other"><img id="skills-misc" src="/images/misc.png" alt="Other" height="80"></a></div>
+<!--    </div>-->
 
 </body>
-
-<style>
-
-<!--.fat-top-pad{-->
-<!--    padding-top:100px;-->
-<!--}-->
-
-<!--.skinny-top-pad{-->
-<!--    padding-top: 30px;-->
-<!--}-->
-
-<!--.light-link{-->
-<!--    color: lightsteelblue;-->
-<!--}-->
-
-<!--.image-border{-->
-<!--    border: 10px solid #555;-->
-<!--    border-radius: 16px;-->
-
-<!--}-->
-</style>
-
+<script src="script.js"></script>
 </html>

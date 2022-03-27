@@ -16,6 +16,10 @@
     padding-top:100px;
 }
 
+.medium-top-pad{
+padding-top: 70px
+}
+
 .skinny-top-pad{
     padding-top: 30px;
 }
@@ -31,5 +35,21 @@
 .image-border{
     border: 10px solid #555;
     border-radius: 16px;
+}
 
+.nav-space {
+    padding: 20px
+}
+
+.nav-butt {
+    padding: 15px;
+    text-align: center;
+    height: 50px;
+    width: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hidden {
+    visibility: hidden;
 }

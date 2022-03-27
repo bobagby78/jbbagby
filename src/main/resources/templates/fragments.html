@@ -4,19 +4,28 @@
 
 <head th:fragment="head">
     <meta charset="UTF-8"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../bootstrap.css">
     <link rel="stylesheet" href="../styles.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
     <!--  <link th:href="@{/styles.css}" rel="stylesheet">-->
     <title th:text="${title}">Rand Ass Title</title>
 </head>
 
-<nav th:fragment="navigation" class="navbar bg-light expand-xl" style="width: 50%;  margin: 0">
-    <a href="/" class="bg-light "><h6>Home</h6></a>
-    <a href="/info" class="bg-light dropbtn"><h6>About Me</h6></a>
-    <a href="/skills" class="bg-light "><h6>Skills</h6></a>
-    <a href="/misc" class="bg-light "><h6>Miscellaneous</h6></a>
+<!--<nav th:fragment="navigation" class="navbar bg-light expand-xl medium-top-pad nav-space" style="width: 500px;  margin: 0 auto; border-radius: 10px; border-style: outset; ">-->
+<!--    <h6><a href="/" class="bg-light" style="margin: 15px">Home</a></h6>-->
+<!--    <h6><a href="/info" class="bg-light" style="margin: 15px">About Me</a></h6>-->
+<!--    <h6><a href="/skills" class="bg-light " style="margin: 15px">Skills</a></h6>-->
+<!--    <h6><a href="/misc" class="bg-light " style="margin: 15px">Miscellaneous</a></h6>-->
 
-</nav>
 
+<!--</nav>-->
+
+<div th:fragment="navigation" class="row bg-light" style="width: 600px; height: 50px; border-radius: 10px; margin: 0 auto; text-align: center">
+    <div class="col" style="padding: 15px"><a href="/"><h6>Home</h6></a></div>
+    <div class="col" style="padding: 15px"><h6><a href="/info" class="bg-light" style="margin: 15px">About Me</a></h6></div>
+    <div class="col" style="padding: 15px"><h6><a href="/skills" class="bg-light " style="margin: 15px">Skills</a></h6></div>
+    <div class="col" style="padding: 15px"><h6><a href="/misc" class="bg-light " style="margin: 15px">Miscellaneous</a></h6></div>
+
+</div>
 
